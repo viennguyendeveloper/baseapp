@@ -10,7 +10,7 @@
         "@ethersproject/providers": "^5.0.13",
         "@formatjs/intl-pluralrules": "^3.2.5",
         "@formatjs/intl-relativetimeformat": "^7.0.0",
-        "@ionic/cli": "^6.11.11",
+        "@ionic/cli": "^6.20.8",
         "@openware/cryptofont": "2.3.0",
         "@openware/react-components": "^0.0.5",
         "@openware/react-opendax": "^0.1.37",
