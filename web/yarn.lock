@@ -794,38 +794,38 @@
   resolved "https://registry.npmjs.org/@icons/material/-/material-0.2.4.tgz#e90c9f71768b3736e76d7dd6783fc6c2afa88bc8"
   integrity sha512-QPcGmICAPbGLGb6F/yNf/KzKqvFx8z5qx3D1yFqVAjoFmXK35EgyW+cJ57Te3CNsmzblwtzakLGFqHPqrfb4Tw==
 
-"@ionic/cli-framework-output@2.2.2":
-  version "2.2.2"
-  resolved "https://registry.npmjs.org/@ionic/cli-framework-output/-/cli-framework-output-2.2.2.tgz#d03367e2b767a32fa7046c455843555b4971cd4a"
-  integrity sha512-eQYkqIW1/tCwSC6Bd0gjse96U11lDX/ikf3jvsjX7a8z/zwSmGzCHRizb7xogV65Ey+1/zyAZR71cpDRQuFLBQ==
+"@ionic/cli-framework-output@2.2.5":
+  version "2.2.5"
+  resolved "https://registry.yarnpkg.com/@ionic/cli-framework-output/-/cli-framework-output-2.2.5.tgz#0db9fba7efe0c27bb5085b12ee01f22053e44152"
+  integrity sha512-YeDLTnTaE6V4IDUxT8GDIep0GuRIFaR7YZDLANMuuWJZDmnTku6DP+MmQoltBeLmVvz1BAAZgk41xzxdq6H2FQ==
   dependencies:
-    "@ionic/utils-terminal" "2.3.1"
+    "@ionic/utils-terminal" "2.3.3"
     debug "^4.0.0"
     tslib "^2.0.1"
 
-"@ionic/cli-framework-prompts@2.1.8":
-  version "2.1.8"
-  resolved "https://registry.npmjs.org/@ionic/cli-framework-prompts/-/cli-framework-prompts-2.1.8.tgz#5445f08a1d5641fd4c58fac9eecc1ab27d519912"
-  integrity sha512-DjO4lQsmvficsZbPmpGqSSx+F1BfgSTQBwRqL5bl9Dkh9rIZ/ckcJcKqCciVOw9kIY7WTeNFOTwj2vWrkFn7+Q==
+"@ionic/cli-framework-prompts@2.1.10":
+  version "2.1.10"
+  resolved "https://registry.yarnpkg.com/@ionic/cli-framework-prompts/-/cli-framework-prompts-2.1.10.tgz#0daa2a1673867eb6dae315050f0d11bc1513474c"
+  integrity sha512-h8HbA0teR0vWtGKB3ahzRbDq4yYaxfukgbOqhu9CAEJHosoFlBmDB8PbPnGFYxUg2J1MuCqeiN2ftJQYV/BO1w==
   dependencies:
-    "@ionic/utils-terminal" "2.3.1"
+    "@ionic/utils-terminal" "2.3.3"
     debug "^4.0.0"
     inquirer "^7.0.0"
     tslib "^2.0.1"
 
-"@ionic/cli-framework@5.1.0":
-  version "5.1.0"
-  resolved "https://registry.npmjs.org/@ionic/cli-framework/-/cli-framework-5.1.0.tgz#b5cf65e86b55157de2d6cdacc7dbd9c185666757"
-  integrity sha512-Hb/P2zuHB3zQZN0qG7Lxda8IlP2mHisfb0KR+wc9cw2BSiH+rtXRd/A4JxndPznjWs00PHbWiEm0Ehas2pA/nw==
+"@ionic/cli-framework@5.1.3":
+  version "5.1.3"
+  resolved "https://registry.yarnpkg.com/@ionic/cli-framework/-/cli-framework-5.1.3.tgz#3545a0381c7d309769a29ecb55660c3b5e5905f8"
+  integrity sha512-T2KN/TurzNoAcc3iDt1KHU6GeEa7x9kXngMnu5xs+DzJv5HhBKjVOoo74b8rgVxdPx+dLOV8aLrorlyvsHR/tQ==
   dependencies:
-    "@ionic/cli-framework-output" "2.2.2"
+    "@ionic/cli-framework-output" "2.2.5"
     "@ionic/utils-array" "2.1.5"
-    "@ionic/utils-fs" "3.1.5"
+    "@ionic/utils-fs" "3.1.6"
     "@ionic/utils-object" "2.1.5"
-    "@ionic/utils-process" "2.1.8"
+    "@ionic/utils-process" "2.1.10"
     "@ionic/utils-stream" "3.1.5"
-    "@ionic/utils-subprocess" "2.1.8"
-    "@ionic/utils-terminal" "2.3.1"
+    "@ionic/utils-subprocess" "2.1.11"
+    "@ionic/utils-terminal" "2.3.3"
     chalk "^4.0.0"
     debug "^4.0.0"
     lodash "^4.17.5"
@@ -834,21 +834,21 @@
     tslib "^2.0.1"
     write-file-atomic "^3.0.0"
 
-"@ionic/cli@^6.11.11":
-  version "6.17.1"
-  resolved "https://registry.npmjs.org/@ionic/cli/-/cli-6.17.1.tgz#ac9db92fe1912aceeedc11b61414971adcf957c0"
-  integrity sha512-riOlzUtzBQ8ywLDfmLeIaCTurMZAxOv4KXPRAioXS3aod0gjm5R2bDokGQ8PnEC/olbMWUEXz+0KfoWxRiJc4w==
+"@ionic/cli@^6.20.8":
+  version "6.20.8"
+  resolved "https://registry.yarnpkg.com/@ionic/cli/-/cli-6.20.8.tgz#3632ff84c9298b24bdd4051e5152acb97174e487"
+  integrity sha512-xoV1mKP2FMtO6WoPbcwKFR6ex1wCqX4iv6zspHKJrY/A7dtwzaPHd2ORInOcbElS05SWBmF5FKt1Yyz1MgvTCg==
   dependencies:
-    "@ionic/cli-framework" "5.1.0"
-    "@ionic/cli-framework-output" "2.2.2"
-    "@ionic/cli-framework-prompts" "2.1.8"
+    "@ionic/cli-framework" "5.1.3"
+    "@ionic/cli-framework-output" "2.2.5"
+    "@ionic/cli-framework-prompts" "2.1.10"
     "@ionic/utils-array" "2.1.5"
-    "@ionic/utils-fs" "3.1.5"
+    "@ionic/utils-fs" "3.1.6"
     "@ionic/utils-network" "2.1.5"
-    "@ionic/utils-process" "2.1.8"
+    "@ionic/utils-process" "2.1.10"
     "@ionic/utils-stream" "3.1.5"
-    "@ionic/utils-subprocess" "2.1.8"
-    "@ionic/utils-terminal" "2.3.1"
+    "@ionic/utils-subprocess" "2.1.11"
+    "@ionic/utils-terminal" "2.3.3"
     chalk "^4.0.0"
     debug "^4.0.0"
     diff "^4.0.1"
@@ -862,7 +862,7 @@
     ssh-config "^1.1.1"
     stream-combiner2 "^1.1.1"
     superagent "^5.2.1"
-    superagent-proxy "^2.0.0"
+    superagent-proxy "^3.0.0"
     tar "^6.0.1"
     tslib "^2.0.1"
 
@@ -874,11 +874,12 @@
     debug "^4.0.0"
     tslib "^2.0.1"
 
-"@ionic/utils-fs@3.1.5":
-  version "3.1.5"
-  resolved "https://registry.npmjs.org/@ionic/utils-fs/-/utils-fs-3.1.5.tgz#fb87be5bd5089ca43a29bbbcab87b9907e6da4b1"
-  integrity sha512-a41bY2dHqWSEQQ/80CpbXSs8McyiCFf2DnIWWLukrhYWf46h4qi6M/8dxcMKrofRiqI/3F+cL3S2mOm9Zz/o2Q==
+"@ionic/utils-fs@3.1.6":
+  version "3.1.6"
+  resolved "https://registry.yarnpkg.com/@ionic/utils-fs/-/utils-fs-3.1.6.tgz#f96cbf724fcc1612be5fc61367c815c0f97796fa"
+  integrity sha512-eikrNkK89CfGPmexjTfSWl4EYqsPSBh0Ka7by4F0PLc1hJZYtJxUZV3X4r5ecA8ikjicUmcbU7zJmAjmqutG/w==
   dependencies:
+    "@types/fs-extra" "^8.0.0"
     debug "^4.0.0"
     fs-extra "^9.0.0"
     tslib "^2.0.1"
@@ -899,13 +900,13 @@
     debug "^4.0.0"
     tslib "^2.0.1"
 
-"@ionic/utils-process@2.1.8":
-  version "2.1.8"
-  resolved "https://registry.npmjs.org/@ionic/utils-process/-/utils-process-2.1.8.tgz#e86d162d0ace28b33959fb7e65fccc58f6f36d81"
-  integrity sha512-VBBoyTzi+m6tgKAItl+jiTQneGwTOsctcrTG4CsEgmVOVOEhUYkPhddXqzD+oC54hPDU9ROsd3I014P5CWEuhQ==
+"@ionic/utils-process@2.1.10":
+  version "2.1.10"
+  resolved "https://registry.yarnpkg.com/@ionic/utils-process/-/utils-process-2.1.10.tgz#35686d933520064859368dd70e691c1ff545d5d9"
+  integrity sha512-mZ7JEowcuGQK+SKsJXi0liYTcXd2bNMR3nE0CyTROpMECUpJeAvvaBaPGZf5ERQUPeWBVuwqAqjUmIdxhz5bxw==
   dependencies:
     "@ionic/utils-object" "2.1.5"
-    "@ionic/utils-terminal" "2.3.1"
+    "@ionic/utils-terminal" "2.3.3"
     debug "^4.0.0"
     signal-exit "^3.0.3"
     tree-kill "^1.2.2"
@@ -919,25 +920,26 @@
     debug "^4.0.0"
     tslib "^2.0.1"
 
-"@ionic/utils-subprocess@2.1.8":
-  version "2.1.8"
-  resolved "https://registry.npmjs.org/@ionic/utils-subprocess/-/utils-subprocess-2.1.8.tgz#c8d7ee39ff3f49171d727ecfd263c66b67cf8638"
-  integrity sha512-pkmtf1LtXcEMPn6/cctREL2aZtZoy0+0Sl+nT0NIkOHIoBUcqrcfMWdctCSM4Mp6+2/hLWtgpHE3TOIibkWfIg==
+"@ionic/utils-subprocess@2.1.11":
+  version "2.1.11"
+  resolved "https://registry.yarnpkg.com/@ionic/utils-subprocess/-/utils-subprocess-2.1.11.tgz#805b86c066fe3a50f6739551ca228d52f25ffeb2"
+  integrity sha512-6zCDixNmZCbMCy5np8klSxOZF85kuDyzZSTTQKQP90ZtYNCcPYmuFSzaqDwApJT4r5L3MY3JrqK1gLkc6xiUPw==
   dependencies:
     "@ionic/utils-array" "2.1.5"
-    "@ionic/utils-fs" "3.1.5"
-    "@ionic/utils-process" "2.1.8"
+    "@ionic/utils-fs" "3.1.6"
+    "@ionic/utils-process" "2.1.10"
     "@ionic/utils-stream" "3.1.5"
-    "@ionic/utils-terminal" "2.3.1"
-    cross-spawn "^7.0.0"
+    "@ionic/utils-terminal" "2.3.3"
+    cross-spawn "^7.0.3"
     debug "^4.0.0"
     tslib "^2.0.1"
 
-"@ionic/utils-terminal@2.3.1":
-  version "2.3.1"
-  resolved "https://registry.npmjs.org/@ionic/utils-terminal/-/utils-terminal-2.3.1.tgz#57bb2f6e4015cb655d004bd2891629b2aea9f06b"
-  integrity sha512-cglsSd2AckI3Ldtdfczeq64vIIDjtPspV5QJtky8f8uIdxkeOIGeRV7bCj1+BEf1hyo+ZuggQxLviHnbMZhiRw==
+"@ionic/utils-terminal@2.3.3":
+  version "2.3.3"
+  resolved "https://registry.yarnpkg.com/@ionic/utils-terminal/-/utils-terminal-2.3.3.tgz#de118bbb07aae7eea833a9f8108bb7fe593cd26e"
+  integrity sha512-RnuSfNZ5fLEyX3R5mtcMY97cGD1A0NVBbarsSQ6yMMfRJ5YHU7hHVyUfvZeClbqkBC/pAqI/rYJuXKCT9YeMCQ==
   dependencies:
+    "@types/slice-ansi" "^4.0.0"
     debug "^4.0.0"
     signal-exit "^3.0.3"
     slice-ansi "^4.0.0"
@@ -1624,6 +1626,13 @@
     "@types/qs" "*"
     "@types/serve-static" "*"
 
+"@types/fs-extra@^8.0.0":
+  version "8.1.2"
+  resolved "https://registry.yarnpkg.com/@types/fs-extra/-/fs-extra-8.1.2.tgz#7125cc2e4bdd9bd2fc83005ffdb1d0ba00cca61f"
+  integrity sha512-SvSrYXfWSc7R4eqnOzbQF4TZmfpNSM9FrSWLU3EUnWBuyZqNBOrv1B1JA3byUDPUl9z4Ab3jeZG2eDdySlgNMg==
+  dependencies:
+    "@types/node" "*"
+
 "@types/glob@^7.1.1":
   version "7.1.4"
   resolved "https://registry.npmjs.org/@types/glob/-/glob-7.1.4.tgz#ea59e21d2ee5c517914cb4bc8e4153b99e566672"
@@ -1905,6 +1914,11 @@
   version "2.3.2"
   resolved "https://registry.npmjs.org/@types/sizzle/-/sizzle-2.3.2.tgz#a811b8c18e2babab7d542b3365887ae2e4d9de47"
   integrity sha512-7EJYyKTL7tFR8+gDbB6Wwz/arpGa0Mywk1TJbNzKzHtzbwVmY4HR9WqS5VV7dsBUKQmPNr192jHr/VpBluj/hg==
+
+"@types/slice-ansi@^4.0.0":
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/@types/slice-ansi/-/slice-ansi-4.0.0.tgz#eb40dfbe3ac5c1de61f6bcb9ed471f54baa989d6"
+  integrity sha512-+OpjSaq85gvlZAYINyzKpLeiFkSC4EsC6IIiT6v6TLSU5k5U83fHGj9Lel8oKEXM0HqgrMVCjXPDPVICtxF7EQ==
 
 "@types/source-list-map@*":
   version "0.1.2"
@@ -2501,7 +2515,7 @@ acorn-walk@^7.0.0, acorn-walk@^7.1.1:
   resolved "https://registry.npmjs.org/acorn-walk/-/acorn-walk-7.2.0.tgz#0de889a601203909b0fbe07b8938dc21d2e967bc"
   integrity sha512-OPdCF6GsMIP+Az+aWfAAOEt2/+iVDKE7oy6lJ098aoe59oAmK76qV6Gw60SbZ8jHuG2wH058GF4pLFbYamYrVA==
 
-acorn-walk@^8.0.0:
+acorn-walk@^8.0.0, acorn-walk@^8.2.0:
   version "8.2.0"
   resolved "https://registry.npmjs.org/acorn-walk/-/acorn-walk-8.2.0.tgz#741210f2e2426454508853a2f44d0ab83b7f69c1"
   integrity sha512-k+iyHEuPgSw6SbuDpGQM+06HQUa04DZ3o+F6CSzXMvvI5KMvnaEqXe+YVe555R9nn6GPt404fos4wcgpw12SDA==
@@ -2525,6 +2539,11 @@ acorn@^8.0.4, acorn@^8.2.4, acorn@^8.4.1:
   version "8.5.0"
   resolved "https://registry.npmjs.org/acorn/-/acorn-8.5.0.tgz#4512ccb99b3698c752591e9bb4472e38ad43cee2"
   integrity sha512-yXbYeFy+jUuYd3/CDcg2NkIYE991XYX/bje7LmjJigUciaeO1JR4XxXgCIV1/Zc/dRuFEyw1L0pbA+qynJkW5Q==
+
+acorn@^8.7.0:
+  version "8.8.2"
+  resolved "https://registry.yarnpkg.com/acorn/-/acorn-8.8.2.tgz#1b2f25db02af965399b9776b0c2c391276d37c4a"
+  integrity sha512-xjIYgE8HBrkpd/sJqOGNspf8uHG+NOHGOw6a/Urj8taM2EXfdNAH2oFcPeIFfsv3+kz/mJrS5VuMqbNLjCa2vw==
 
 agent-base@6, agent-base@^6.0.0, agent-base@^6.0.2:
   version "6.0.2"
@@ -4738,6 +4757,13 @@ debug@^3.1.0, debug@^3.1.1, debug@^3.2.6, debug@^3.2.7:
   dependencies:
     ms "^2.1.1"
 
+debug@^4.3.2:
+  version "4.3.4"
+  resolved "https://registry.yarnpkg.com/debug/-/debug-4.3.4.tgz#1319f6579357f2338d3337d2cdd4914bb5dcc865"
+  integrity sha512-PRWFHuSU3eDtQJPvnNY7Jcket1j0t5OuOsFzPPzsekD52Zl8qUfFIPEiswXqIvHWGVHOgX+7G/vCNNhehwxfkQ==
+  dependencies:
+    ms "2.1.2"
+
 decamelize-keys@^1.1.0:
   version "1.1.0"
   resolved "https://registry.npmjs.org/decamelize-keys/-/decamelize-keys-1.1.0.tgz#d171a87933252807eb3cb61dc1c1445d078df2d9"
@@ -4837,14 +4863,15 @@ defined@^1.0.0:
   resolved "https://registry.npmjs.org/defined/-/defined-1.0.0.tgz#c98d9bcef75674188e110969151199e39b1fa693"
   integrity sha1-yY2bzvdWdBiOEQlpFRGZ45sfppM=
 
-degenerator@^2.2.0:
-  version "2.2.0"
-  resolved "https://registry.npmjs.org/degenerator/-/degenerator-2.2.0.tgz#49e98c11fa0293c5b26edfbb52f15729afcdb254"
-  integrity sha512-aiQcQowF01RxFI4ZLFMpzyotbQonhNpBao6dkI8JPk5a+hmSjR5ErHp2CQySmQe8os3VBqLCIh87nDBgZXvsmg==
+degenerator@^3.0.2:
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/degenerator/-/degenerator-3.0.2.tgz#6a61fcc42a702d6e50ff6023fe17bff435f68235"
+  integrity sha512-c0mef3SNQo56t6urUU6tdQAs+ThoD0o9B9MJ8HEt7NQcGEILCRFqQb7ZbP9JAv+QF1Ky5plydhMR/IrqWDm+TQ==
   dependencies:
     ast-types "^0.13.2"
     escodegen "^1.8.1"
     esprima "^4.0.0"
+    vm2 "^3.9.8"
 
 del@^4.1.1:
   version "4.1.1"
@@ -9945,9 +9972,9 @@ neo-async@^2.5.0, neo-async@^2.6.0, neo-async@^2.6.1, neo-async@^2.6.2:
   resolved "https://registry.npmjs.org/neo-async/-/neo-async-2.6.2.tgz#b4aafb93e3aeb2d8174ca53cf163ab7d7308305f"
   integrity sha512-Yd3UES5mWCSqR+qNT93S3UoYUkqAZ9lLg8a7g9rimsWmYGK8cVToA4/sF3RrshdyV3sAGMXVUmpMYOw+dLpOuw==
 
-netmask@^2.0.1:
+netmask@^2.0.2:
   version "2.0.2"
-  resolved "https://registry.npmjs.org/netmask/-/netmask-2.0.2.tgz#8b01a07644065d536383835823bc52004ebac5e7"
+  resolved "https://registry.yarnpkg.com/netmask/-/netmask-2.0.2.tgz#8b01a07644065d536383835823bc52004ebac5e7"
   integrity sha512-dBpDMdxv9Irdq66304OLfEmQ9tbNRFnFTuZiLo+bD+r332bBmMJ8GBLXklIXXgxd3+v9+KUnZaUR5PJMa75Gsg==
 
 nice-try@^1.0.4:
@@ -10599,10 +10626,10 @@ p-try@^2.0.0:
   resolved "https://registry.npmjs.org/p-try/-/p-try-2.2.0.tgz#cb2868540e313d61de58fafbe35ce9004d5540e6"
   integrity sha512-R4nPAVTAU0B9D35/Gk3uJf/7XYbQcyohSKdvAxIRSNghFl4e71hVoGnBNQz9cWaXxO2I10KTC+3jMdvvoKw6dQ==
 
-pac-proxy-agent@^4.1.0:
-  version "4.1.0"
-  resolved "https://registry.npmjs.org/pac-proxy-agent/-/pac-proxy-agent-4.1.0.tgz#66883eeabadc915fc5e95457324cb0f0ac78defb"
-  integrity sha512-ejNgYm2HTXSIYX9eFlkvqFp8hyJ374uDf0Zq5YUAifiSh1D6fo+iBivQZirGvVv8dCYUsLhmLBRhlAYvBKI5+Q==
+pac-proxy-agent@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/pac-proxy-agent/-/pac-proxy-agent-5.0.0.tgz#b718f76475a6a5415c2efbe256c1c971c84f635e"
+  integrity sha512-CcFG3ZtnxO8McDigozwE3AqAw15zDvGH+OjXO4kzf7IkEKkQ4gxQ+3sdF50WmhQ4P/bVusXcqNE2S3XrNURwzQ==
   dependencies:
     "@tootallnate/once" "1"
     agent-base "6"
@@ -10610,18 +10637,18 @@ pac-proxy-agent@^4.1.0:
     get-uri "3"
     http-proxy-agent "^4.0.1"
     https-proxy-agent "5"
-    pac-resolver "^4.1.0"
+    pac-resolver "^5.0.0"
     raw-body "^2.2.0"
     socks-proxy-agent "5"
 
-pac-resolver@^4.1.0:
-  version "4.2.0"
-  resolved "https://registry.npmjs.org/pac-resolver/-/pac-resolver-4.2.0.tgz#b82bcb9992d48166920bc83c7542abb454bd9bdd"
-  integrity sha512-rPACZdUyuxT5Io/gFKUeeZFfE5T7ve7cAkE5TUZRRfuKP0u5Hocwe48X7ZEm6mYB+bTB0Qf+xlVlA/RM/i6RCQ==
+pac-resolver@^5.0.0:
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/pac-resolver/-/pac-resolver-5.0.1.tgz#c91efa3a9af9f669104fa2f51102839d01cde8e7"
+  integrity sha512-cy7u00ko2KVgBAjuhevqpPeHIkCIqPe1v24cydhWjmeuzaBfmUWFCZJ1iAh5TuVzVZoUzXIW7K8sMYOZ84uZ9Q==
   dependencies:
-    degenerator "^2.2.0"
+    degenerator "^3.0.2"
     ip "^1.1.5"
-    netmask "^2.0.1"
+    netmask "^2.0.2"
 
 pako@~1.0.5:
   version "1.0.11"
@@ -11578,17 +11605,17 @@ proxy-addr@~2.0.5:
     forwarded "0.2.0"
     ipaddr.js "1.9.1"
 
-proxy-agent@^4.0.0:
-  version "4.0.1"
-  resolved "https://registry.npmjs.org/proxy-agent/-/proxy-agent-4.0.1.tgz#326c3250776c7044cd19655ccbfadf2e065a045c"
-  integrity sha512-ODnQnW2jc/FUVwHHuaZEfN5otg/fMbvMxz9nMSUQfJ9JU7q2SZvSULSsjLloVgJOiv9yhc8GlNMKc4GkFmcVEA==
+proxy-agent@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/proxy-agent/-/proxy-agent-5.0.0.tgz#d31405c10d6e8431fde96cba7a0c027ce01d633b"
+  integrity sha512-gkH7BkvLVkSfX9Dk27W6TyNOWWZWRilRfk1XxGNWOYJ2TuedAv1yFpCaU9QSBmBe716XOTNpYNOzhysyw8xn7g==
   dependencies:
     agent-base "^6.0.0"
     debug "4"
     http-proxy-agent "^4.0.0"
     https-proxy-agent "^5.0.0"
     lru-cache "^5.1.1"
-    pac-proxy-agent "^4.1.0"
+    pac-proxy-agent "^5.0.0"
     proxy-from-env "^1.0.0"
     socks-proxy-agent "^5.0.0"
 
@@ -13903,13 +13930,13 @@ sugarss@^2.0.0:
   dependencies:
     postcss "^7.0.2"
 
-superagent-proxy@^2.0.0:
-  version "2.1.0"
-  resolved "https://registry.npmjs.org/superagent-proxy/-/superagent-proxy-2.1.0.tgz#34e91f9024fbace95f0a35c50c69edf2a0d331e2"
-  integrity sha512-DnarpKN6Xn8e3pYlFV4Yvsj9yxLY4q5FIsUe5JvN7vjzP+YCfzXv03dTkZSD2yzrSadsNYHf0IgOUJwKjX457A==
+superagent-proxy@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/superagent-proxy/-/superagent-proxy-3.0.0.tgz#e1a17ccba25883599e18d2974020fe83ee7d95d1"
+  integrity sha512-wAlRInOeDFyd9pyonrkJspdRAxdLrcsZ6aSnS+8+nu4x1aXbz6FWSTT9M6Ibze+eG60szlL7JA8wEIV7bPWuyQ==
   dependencies:
-    debug "^3.1.0"
-    proxy-agent "^4.0.0"
+    debug "^4.3.2"
+    proxy-agent "^5.0.0"
 
 superagent@^5.2.1:
   version "5.3.1"
@@ -14885,6 +14912,14 @@ vm-browserify@^1.0.1:
   version "1.1.2"
   resolved "https://registry.npmjs.org/vm-browserify/-/vm-browserify-1.1.2.tgz#78641c488b8e6ca91a75f511e7a3b32a86e5dda0"
   integrity sha512-2ham8XPWTONajOR0ohOKOHXkm3+gaBmGut3SRuu75xLd/RRaY6vqgh8NBYYk7+RW3u5AtzPQZG8F10LHkl0lAQ==
+
+vm2@^3.9.8:
+  version "3.9.14"
+  resolved "https://registry.yarnpkg.com/vm2/-/vm2-3.9.14.tgz#964042b474cf1e6e4f475a39144773cdb9deb734"
+  integrity sha512-HgvPHYHeQy8+QhzlFryvSteA4uQLBCOub02mgqdR+0bN/akRZ48TGB1v0aCv7ksyc0HXx16AZtMHKS38alc6TA==
+  dependencies:
+    acorn "^8.7.0"
+    acorn-walk "^8.2.0"
 
 w3c-hr-time@^1.0.1, w3c-hr-time@^1.0.2:
   version "1.0.2"
