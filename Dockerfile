@@ -27,7 +27,7 @@ COPY . .
 RUN make asset
 
 #Runner
-FROM alpine:3.12
+FROM alpine:3.16.7
 
 WORKDIR /app
 
