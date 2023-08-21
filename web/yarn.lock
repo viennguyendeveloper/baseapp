@@ -316,10 +316,10 @@
   resolved "https://registry.npmjs.org/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz#75a2e8b51cb758a7553d6804a5932d7aace75c39"
   integrity sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==
 
-"@capacitor/android@2.4.1":
-  version "2.4.1"
-  resolved "https://registry.npmjs.org/@capacitor/android/-/android-2.4.1.tgz#db1a7fd5f2244b47f72a61aa508e7bf875ee0493"
-  integrity sha512-y2KHTuD1SPiibYou8x84Aio54ZyG9LWNCoIcrjgiFM8FlIDdp2FuW4yP17KA8ORDfj37yWI+IRzKa+t/M7Jy3Q==
+"@capacitor/android@2.5.0":
+  version "2.5.0"
+  resolved "https://registry.yarnpkg.com/@capacitor/android/-/android-2.5.0.tgz#143d7b3b0131af221b4a1fca778fc207f3d235a6"
+  integrity sha512-W25F9GRuqNAN9D6Sd5Lj21ibGqzd8006Tf3mfai6MJj8DB3a1TMp+hueRwt+WhDJAS+T2pnljuR3FD/jd4u2Rw==
 
 "@capacitor/cli@^2.4.2":
   version "2.5.0"
