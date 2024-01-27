@@ -20,7 +20,7 @@ ENV REACT_APP_SENTRY_PROJECT=${REACT_APP_SENTRY_PROJECT}
 RUN yarn install
 RUN ./scripts/build.sh
 
-FROM nginx:mainline-alpine
+FROM nginx:1.25.3-alpine3.18
 
 COPY --from=builder /home/node/build /usr/share/nginx/html
 COPY nginx.conf /etc/nginx/conf.d/default.conf
